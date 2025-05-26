@@ -20,7 +20,8 @@ header>div>ul li>a:hover{
 }
 body{
     margin: 0;padding: 0;background-color: #ffffff;
-   font-family: Manrope;
+   /* font-family: Manrope; */
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 header .btn2{
     background-color: #152C6F;border-radius: 30px;
@@ -95,16 +96,16 @@ div{
     display: none;
 }
 #bg{
-    height: 400px;
-    background-image:url(images/Group\ 1.png);
-    background-size: cover;
+    height: 700px;
+    background-image:url(./pictures/Frame96.svg);
+    background-size:cover;
     background-position: center;
     background-repeat: no-repeat;
     position:relative;
   }
   #bg1{
     height: 250px;
-    background-image:url(images/Group\ 1.png);
+    background-image:url(./pictures/Frame96.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -357,7 +358,7 @@ footer{
       }
 
 .container{
-    float: right;margin-right: 30px;margin-top: -40px;
+    float: right;margin-right: 30px;margin-top: -50px;
 }
 #talk{
     flex-direction: column;justify-content: center;

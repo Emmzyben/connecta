@@ -4,15 +4,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Connecta: Meet People Round the World</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="shortcut icon" href="images/logo.png">
+        <link rel="shortcut icon" href="pictures/logo.svg">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script src="https://kit.fontawesome.com/f0fb58e769.js" crossorigin="anonymous"></script>
+  <!-- Google Fonts for Mansalva -->
+  <link href="https://fonts.googleapis.com/css2?family=Mansalva&display=swap" rel="stylesheet">
+
+<style>
+
+    h1.title {
+      font-weight: 700;
+      font-size: 6vw; /* responsive font */
+      line-height: 1.2;
+      margin: 0;
+       font-family: 'Mansalva', cursive;
+       color: #000000;
+    }
+
+    h1.gradient-text {
+      font-weight: 400;
+      font-size: 6vw; /* responsive font */
+      line-height: 1.2;
+      background: linear-gradient(89deg, #FB385F -10.64%, #722ED0 103.64%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      margin: 0;
+    }
+
+    p {
+      color: #000000;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .highlight {
+      background: linear-gradient(89deg, #FB385F -10.64%, #722ED0 103.64%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+      font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+      h1.title,
+      h1.gradient-text {
+        font-size: 8vw;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  </style>
 
 </head>
 <body>
     <header id="target">
         <div>
-<img src="images/logo.png" alt="" id="img">
+<img src="pictures/logo.svg" alt="" id="img">
         </div>
         <div id="snddiv">
  <ul style="font-weight: 600;">
@@ -29,7 +81,7 @@
     </header>
     <div id="side">
         <div id="underNav">
-<img src="images/logo.png" alt="">        
+<img src="pictures/logo.svg" alt="">        
         </div>
 
         <div onclick="openNav()">
@@ -43,7 +95,7 @@
 
        <div id="mySidenav" class="sidenav">
         <div style="text-align: center;margin-bottom: 40px;">
-          <img src="images/logo.png" alt=""> 
+          <img src="pictures/logo.svg" alt=""> 
         </div>
       
        <a href="#targetDiv">Features</a>
@@ -61,16 +113,20 @@
       <div id="bg">
         <div class="bgcover">
            <div id="slidingDiv" class="hidden">
-          <!-- <h1>
-            Engineering Solutions <br>
-That Shape the Future
-          </h1>
-          <p>
-            Delivering innovative engineering and construction services
-            since 2019
-          </p> -->
-          <br>
-          <a href="#targetDiv4">Contact Us</a>
+      <h1 class="title">Find Your Perfect</h1>
+  <h1 class="gradient-text">Connection</h1>
+  <p><span class="highlight">Connecta</span> brings people together through meaningful conversations and authentic connections. <br>Join thousands of singles finding love every day.</p>
+
+         <div style="display: flex;
+padding: 13px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;">
+<button style="border-radius: 30px;
+background: linear-gradient(89deg, #FB385F -10.64%, #722ED0 103.64%);color: #000000;">Get Started</button>
+<button style="border-radius: 30px;
+border: 1px solid #fff;background-color: unset;color: #fff;">Learn more >>></button>
+</div>
            </div>
         </div>
       </div>
@@ -217,7 +273,7 @@ the most effective dating app for finding meaningful connections.</p>
 Download our app today and start your journey
 to meaningful connections.</p>
 <div style="display: flex;justify-content: center;gap: 10px;">
-  <a href=""><img src="/pictures/Component2.png" alt="" style="width: 150px;"></a>
+  <a href=""><img src="/pictures/Component 2.svg" alt="" style="width: 150px;"></a>
 <a href=""><img src="pictures/Component3.png" alt="" style="width: 150px;"></a>
 </div>
 
@@ -284,9 +340,9 @@ border: 1px solid #FFF;background-color: unset;">Learn more >>></button>
 <footer>
   <div>
 <div style="display: flex;flex-direction: row;">
-      <img src="images/Frame 3.png" alt="" >
+      <img src="pictures/Frame5.svg" alt="" >
   </div>
-  <p>Connecting hearts, one match at a time. Find your perfect match with our innovative dating platform.</p>
+  <p style="color: #adaaaa;">Connecting hearts, one match at a time. Find your perfect match with our innovative dating platform.</p>
 </div>
 
 <div>
@@ -316,7 +372,7 @@ border: 1px solid #FFF;background-color: unset;">Learn more >>></button>
 
 </footer>
 <div style="padding: 10px;color: #ffffff;text-align: center;background: var(--Colors-Neutral-Black, #131313);" >
-  <p>© 2025 Connecta All rights reserved.</p>
+  <p style="color: #fff;">© 2025 Connecta All rights reserved.</p>
 </div>
 </div>
 
